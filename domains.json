@@ -1,0 +1,846 @@
+[
+  {
+    "key": "biological_size",
+    "name": "Biological Size",
+    "category": "physical",
+    "axis_description": "smallest organism to largest organism",
+    "pole_low":  ["virus", "bacterium"],
+    "pole_high": ["elephant", "whale"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["virus","bacterium","amoeba","ant","frog","crow","wolf","dolphin","chimpanzee","human","horse","elephant","whale"],
+    "ground_truth_order": ["virus","bacterium","amoeba","ant","frog","crow","wolf","dolphin","chimpanzee","human","horse","elephant","whale"],
+    "intruders": [
+      "atom", "planet", "galaxy",
+      "democracy", "sadness", "algebra",
+      "Shakespeare", "gravity", "Tuesday"
+    ]
+  },
+  {
+    "key": "physical_size",
+    "name": "Physical Size (cosmic)",
+    "category": "physical",
+    "axis_description": "subatomic to cosmic scale",
+    "pole_low":  ["electron", "atom"],
+    "pole_high": ["galaxy", "universe"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["electron","atom","molecule","cell","grain of sand","ant","apple","human","car","building","mountain","planet","star","galaxy"],
+    "ground_truth_order": ["electron","atom","molecule","cell","grain of sand","ant","apple","human","car","building","mountain","planet","star","galaxy"],
+    "intruders": [
+      "whale", "elephant", "chimpanzee",
+      "democracy", "sadness", "algebra",
+      "infinity", "nothing", "Tuesday"
+    ]
+  },
+  {
+    "key": "temperature",
+    "name": "Temperature Scale",
+    "category": "physical",
+    "axis_description": "absolute cold to extreme heat",
+    "pole_low":  ["ice", "frozen"],
+    "pole_high": ["fire", "molten lava"],
+    "null_pole_low": "democracy", "null_pole_high": "melody",
+    "concepts": ["absolute zero","frozen","ice","cold water","room temperature","body temperature","boiling water","fire","molten lava","sun surface"],
+    "ground_truth_order": ["absolute zero","frozen","ice","cold water","room temperature","body temperature","boiling water","fire","molten lava","sun surface"],
+    "intruders": [
+      "red", "blue", "orange",
+      "passion", "rage", "serenity",
+      "algebra", "Tuesday", "democracy"
+    ]
+  },
+  {
+    "key": "sound_frequency",
+    "name": "Sound Frequency",
+    "category": "physical",
+    "axis_description": "lowest frequency to highest frequency sound",
+    "pole_low":  ["bass", "rumble"],
+    "pole_high": ["ultrasound", "whistle"],
+    "null_pole_low": "justice", "null_pole_high": "river",
+    "concepts": ["earthquake rumble","bass drum","thunder","human voice","whistle","bat call","ultrasound","dog whistle"],
+    "ground_truth_order": ["earthquake rumble","bass drum","thunder","human voice","whistle","dog whistle","bat call","ultrasound"],
+    "intruders": [
+      "explosion", "whisper", "silence",
+      "hot", "bright", "heavy",
+      "democracy", "sadness", "algebra"
+    ]
+  },
+  {
+    "key": "electromagnetic_spectrum",
+    "name": "Electromagnetic Spectrum",
+    "category": "physical",
+    "axis_description": "lowest energy radiation to highest energy",
+    "pole_low":  ["radio wave", "microwave"],
+    "pole_high": ["gamma ray", "X-ray"],
+    "null_pole_low": "democracy", "null_pole_high": "volcano",
+    "concepts": ["radio wave","microwave","infrared","visible light","ultraviolet","X-ray","gamma ray"],
+    "ground_truth_order": ["radio wave","microwave","infrared","visible light","ultraviolet","X-ray","gamma ray"],
+    "intruders": [
+      "bass drum", "ultrasound", "nuclear explosion",
+      "loud", "heavy", "ancient",
+      "democracy", "sadness", "algebra"
+    ]
+  },
+  {
+    "key": "geological_time",
+    "name": "Geological Time",
+    "category": "physical",
+    "axis_description": "oldest geological era to most recent",
+    "pole_low":  ["Hadean eon", "Archean eon"],
+    "pole_high": ["Holocene", "Anthropocene"],
+    "null_pole_low": "river", "null_pole_high": "equation",
+    "concepts": ["Hadean eon","Archean eon","Proterozoic eon","Cambrian","Devonian","Permian","Jurassic","Cretaceous","Paleocene","Pleistocene","Holocene"],
+    "ground_truth_order": ["Hadean eon","Archean eon","Proterozoic eon","Cambrian","Devonian","Permian","Jurassic","Cretaceous","Paleocene","Pleistocene","Holocene"],
+    "intruders": [
+      "Stone Age", "ancient Rome", "Renaissance",
+      "elderly", "newborn",
+      "democracy", "algebra", "melody", "Tuesday"
+    ]
+  },
+  {
+    "key": "temporal_history",
+    "name": "Historical Temporal Order",
+    "category": "temporal",
+    "axis_description": "ancient history to modern era",
+    "pole_low":  ["ancient Egypt", "Stone Age"],
+    "pole_high": ["smartphone", "internet"],
+    "null_pole_low": "river", "null_pole_high": "equation",
+    "concepts": ["Stone Age","ancient Egypt","ancient Greece","Roman Empire","medieval Europe","Renaissance","Industrial Revolution","World War One","World War Two","moon landing","personal computer","internet","smartphone","artificial intelligence"],
+    "ground_truth_order": ["Stone Age","ancient Egypt","ancient Greece","Roman Empire","medieval Europe","Renaissance","Industrial Revolution","World War One","World War Two","moon landing","personal computer","internet","smartphone","artificial intelligence"],
+    "intruders": [
+      "Jurassic", "Cambrian", "Holocene",
+      "democracy", "mathematics", "justice",
+      "sadness", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "life_stages",
+    "name": "Human Life Stages",
+    "category": "temporal",
+    "axis_description": "birth to death",
+    "pole_low":  ["infant", "newborn"],
+    "pole_high": ["elder", "elderly"],
+    "null_pole_low": "mountain", "null_pole_high": "algorithm",
+    "concepts": ["newborn","infant","toddler","child","adolescent","teenager","young adult","adult","middle-aged","senior","elderly"],
+    "ground_truth_order": ["newborn","infant","toddler","child","adolescent","teenager","young adult","adult","middle-aged","senior","elderly"],
+    "intruders": [
+      "nebula", "main sequence star", "supernova",
+      "village", "city", "civilization",
+      "algebra", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "project_stages",
+    "name": "Project / Process Lifecycle",
+    "category": "temporal",
+    "axis_description": "project conception to completion",
+    "pole_low":  ["idea", "concept"],
+    "pole_high": ["launch", "completion"],
+    "null_pole_low": "mountain", "null_pole_high": "mythology",
+    "concepts": ["idea","concept","proposal","planning","design","prototype","development","testing","review","launch","maintenance"],
+    "ground_truth_order": ["idea","concept","proposal","planning","design","prototype","development","testing","review","launch","maintenance"],
+    "intruders": [
+      "egg", "larva", "pupa", "butterfly",
+      "exposed", "symptomatic", "terminal",
+      "democracy", "sadness", "algebra"
+    ]
+  },
+  {
+    "key": "disease_progression",
+    "name": "Disease Severity Progression",
+    "category": "temporal",
+    "axis_description": "healthy to terminal",
+    "pole_low":  ["healthy", "symptom-free"],
+    "pole_high": ["terminal", "critical"],
+    "null_pole_low": "mathematics", "null_pole_high": "mythology",
+    "concepts": ["healthy","exposed","symptomatic","mild illness","moderate illness","severe illness","hospitalized","intensive care","critical","terminal"],
+    "ground_truth_order": ["healthy","exposed","symptomatic","mild illness","moderate illness","severe illness","hospitalized","intensive care","critical","terminal"],
+    "intruders": [
+      "mild pain", "severe pain", "agony",
+      "harmless", "toxic", "lethal",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "information_hierarchy",
+    "name": "Information Hierarchy",
+    "category": "cognitive",
+    "axis_description": "smallest unit of information to largest",
+    "pole_low":  ["pixel", "letter"],
+    "pole_high": ["library", "civilization"],
+    "null_pole_low": "volcano", "null_pole_high": "algorithm",
+    "concepts": ["pixel","letter","word","sentence","paragraph","chapter","book","library","language","knowledge","civilization"],
+    "ground_truth_order": ["pixel","letter","word","sentence","paragraph","chapter","book","library","language","knowledge","civilization"],
+    "intruders": [
+      "atom", "planet", "mountain",
+      "person", "city", "nation",
+      "sadness", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "cognitive_complexity",
+    "name": "Cognitive Complexity",
+    "category": "cognitive",
+    "axis_description": "reflex to metacognition",
+    "pole_low":  ["reflex", "instinct"],
+    "pole_high": ["metacognition", "philosophy"],
+    "null_pole_low": "volcano", "null_pole_high": "river",
+    "concepts": ["reflex","instinct","habit","perception","memory","learning","reasoning","creativity","self-awareness","metacognition"],
+    "ground_truth_order": ["reflex","instinct","habit","perception","memory","learning","reasoning","creativity","self-awareness","metacognition"],
+    "intruders": [
+      "calculator", "computer", "artificial intelligence",
+      "tribe", "city", "civilization",
+      "sadness", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "mathematical_abstraction",
+    "name": "Mathematical Abstraction",
+    "category": "cognitive",
+    "axis_description": "concrete counting to pure abstraction",
+    "pole_low":  ["counting", "arithmetic"],
+    "pole_high": ["topology", "category theory"],
+    "null_pole_low": "volcano", "null_pole_high": "mythology",
+    "concepts": ["counting","arithmetic","geometry","algebra","calculus","statistics","linear algebra","differential equations","topology","category theory"],
+    "ground_truth_order": ["counting","arithmetic","geometry","algebra","calculus","statistics","linear algebra","differential equations","topology","category theory"],
+    "intruders": [
+      "photograph", "cubism", "pure abstraction",
+      "common sense", "logic", "metaphysics",
+      "sadness", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "language_complexity",
+    "name": "Language Complexity",
+    "category": "cognitive",
+    "axis_description": "grunt to literature",
+    "pole_low":  ["grunt", "gesture"],
+    "pole_high": ["novel", "poetry"],
+    "null_pole_low": "mountain", "null_pole_high": "river",
+    "concepts": ["grunt","gesture","word","phrase","sentence","paragraph","story","essay","novel","poetry"],
+    "ground_truth_order": ["grunt","gesture","word","phrase","sentence","paragraph","story","essay","novel","poetry"],
+    "intruders": [
+      "Hemingway", "Shakespeare", "Homer",
+      "small talk", "negotiation", "diplomacy",
+      "algebra", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "scientific_certainty",
+    "name": "Scientific Certainty",
+    "category": "cognitive",
+    "axis_description": "speculation to established law",
+    "pole_low":  ["speculation", "hypothesis"],
+    "pole_high": ["scientific law", "mathematical proof"],
+    "null_pole_low": "mountain", "null_pole_high": "mythology",
+    "concepts": ["speculation","conjecture","hypothesis","theory","model","consensus","evidence","replication","scientific law","mathematical proof"],
+    "ground_truth_order": ["speculation","conjecture","hypothesis","theory","model","consensus","evidence","replication","scientific law","mathematical proof"],
+    "intruders": [
+      "politician", "celebrity", "professor",
+      "viral tweet", "newspaper article", "peer review",
+      "sadness", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "social_scale",
+    "name": "Social / Institutional Scale",
+    "category": "social",
+    "axis_description": "individual to all of humanity",
+    "pole_low":  ["person", "individual"],
+    "pole_high": ["civilization", "humanity"],
+    "null_pole_low": "mathematics", "null_pole_high": "mythology",
+    "concepts": ["person","family","neighborhood","village","city","state","nation","continent","civilization","humanity"],
+    "ground_truth_order": ["person","family","neighborhood","village","city","state","nation","continent","civilization","humanity"],
+    "intruders": [
+      "mountain", "river", "ocean",
+      "pack", "herd", "ant colony",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "political_power",
+    "name": "Political Power Scale",
+    "category": "social",
+    "axis_description": "citizen to supreme leader",
+    "pole_low":  ["citizen", "voter"],
+    "pole_high": ["president", "emperor"],
+    "null_pole_low": "molecule", "null_pole_high": "melody",
+    "concepts": ["citizen","voter","activist","local official","mayor","governor","senator","prime minister","president","emperor"],
+    "ground_truth_order": ["citizen","voter","activist","local official","mayor","governor","senator","prime minister","president","emperor"],
+    "intruders": [
+      "millionaire", "billionaire", "homeless",
+      "celebrity", "influencer", "unknown person",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "economic_wealth",
+    "name": "Economic Wealth",
+    "category": "social",
+    "axis_description": "destitute to ultra-wealthy",
+    "pole_low":  ["poverty", "homeless"],
+    "pole_high": ["billionaire", "ultra-wealthy"],
+    "null_pole_low": "molecule", "null_pole_high": "mythology",
+    "concepts": ["homeless","impoverished","working poor","lower class","middle class","upper middle class","wealthy","millionaire","billionaire","ultra-wealthy"],
+    "ground_truth_order": ["homeless","impoverished","working poor","lower class","middle class","upper middle class","wealthy","millionaire","billionaire","ultra-wealthy"],
+    "intruders": [
+      "president", "voter", "senator",
+      "celebrity", "unknown person",
+      "algebra", "sadness", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "military_rank",
+    "name": "Military Rank",
+    "category": "social",
+    "axis_description": "recruit to supreme commander",
+    "pole_low":  ["recruit", "private"],
+    "pole_high": ["general", "commander in chief"],
+    "null_pole_low": "molecule", "null_pole_high": "river",
+    "concepts": ["recruit","private","corporal","sergeant","lieutenant","captain","major","colonel","general","commander in chief"],
+    "ground_truth_order": ["recruit","private","corporal","sergeant","lieutenant","captain","major","colonel","general","commander in chief"],
+    "intruders": [
+      "intern", "manager", "CEO",
+      "student", "professor", "dean",
+      "major key", "general store", "private school"
+    ]
+  },
+  {
+    "key": "academic_rank",
+    "name": "Academic Credential",
+    "category": "social",
+    "axis_description": "no formal education to highest degree",
+    "pole_low":  ["illiterate", "dropout"],
+    "pole_high": ["professor", "Nobel laureate"],
+    "null_pole_low": "volcano", "null_pole_high": "river",
+    "concepts": ["illiterate","elementary school","high school dropout","high school graduate","some college","bachelor's degree","master's degree","PhD","professor","Nobel laureate"],
+    "ground_truth_order": ["illiterate","elementary school","high school dropout","high school graduate","some college","bachelor's degree","master's degree","PhD","professor","Nobel laureate"],
+    "intruders": [
+      "homeless", "millionaire", "billionaire",
+      "private", "colonel", "general",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "evolutionary_complexity",
+    "name": "Evolutionary Complexity",
+    "category": "biological",
+    "axis_description": "simplest life to most complex nervous system",
+    "pole_low":  ["virus", "prokaryote"],
+    "pole_high": ["primate", "human"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["virus","prokaryote","algae","fungus","plant","worm","insect","fish","reptile","bird","mammal","primate","human"],
+    "ground_truth_order": ["virus","prokaryote","algae","fungus","plant","worm","insect","fish","reptile","bird","mammal","primate","human"],
+    "intruders": [
+      "tribe", "city", "civilization",
+      "stone tool", "computer", "artificial intelligence",
+      "sadness", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "food_chain",
+    "name": "Food Chain / Trophic Level",
+    "category": "biological",
+    "axis_description": "primary producer to apex predator",
+    "pole_low":  ["plankton", "grass"],
+    "pole_high": ["shark", "killer whale"],
+    "null_pole_low": "justice", "null_pole_high": "river",
+    "concepts": ["plankton","grass","insect","rabbit","mouse","frog","snake","hawk","wolf","shark","killer whale"],
+    "ground_truth_order": ["plankton","grass","insect","rabbit","mouse","frog","snake","hawk","wolf","shark","killer whale"],
+    "intruders": [
+      "bacterium", "elephant", "whale",
+      "peasant", "king", "emperor",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "brain_size",
+    "name": "Relative Brain Size",
+    "category": "biological",
+    "axis_description": "simplest nervous system to largest relative brain",
+    "pole_low":  ["worm", "jellyfish"],
+    "pole_high": ["dolphin", "human"],
+    "null_pole_low": "river", "null_pole_high": "equation",
+    "concepts": ["jellyfish","worm","insect","goldfish","frog","lizard","chicken","rat","cat","dog","chimpanzee","dolphin","human"],
+    "ground_truth_order": ["jellyfish","worm","insect","goldfish","frog","lizard","chicken","rat","cat","dog","chimpanzee","dolphin","human"],
+    "intruders": [
+      "simple person", "genius", "polymath",
+      "calculator", "computer", "artificial intelligence",
+      "democracy", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "lifespan",
+    "name": "Organism Lifespan",
+    "category": "biological",
+    "axis_description": "shortest-lived to longest-lived organism",
+    "pole_low":  ["mayfly", "housefly"],
+    "pole_high": ["tortoise", "bristlecone pine"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["mayfly","housefly","mosquito","mouse","rabbit","dog","horse","human","elephant","tortoise","bristlecone pine"],
+    "ground_truth_order": ["mayfly","housefly","mosquito","mouse","rabbit","dog","horse","human","elephant","tortoise","bristlecone pine"],
+    "intruders": [
+      "tissue paper", "oak wood", "granite", "diamond",
+      "ancient Egypt", "Roman Empire", "United States",
+      "sadness", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "plant_complexity",
+    "name": "Plant Complexity",
+    "category": "biological",
+    "axis_description": "simplest plant to most complex",
+    "pole_low":  ["algae", "moss"],
+    "pole_high": ["oak tree", "rainforest tree"],
+    "null_pole_low": "justice", "null_pole_high": "river",
+    "concepts": ["algae","moss","fern","grass","shrub","flowering plant","fruit tree","conifer","oak tree","rainforest tree"],
+    "ground_truth_order": ["algae","moss","fern","grass","shrub","flowering plant","fruit tree","conifer","oak tree","rainforest tree"],
+    "intruders": [
+      "bacterium", "elephant", "whale",
+      "stone tool", "computer", "artificial intelligence",
+      "democracy", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "technology_complexity",
+    "name": "Technology Complexity",
+    "category": "technology",
+    "axis_description": "simplest tool to most complex technology",
+    "pole_low":  ["stone tool", "hammer"],
+    "pole_high": ["nuclear reactor", "artificial intelligence"],
+    "null_pole_low": "mountain", "null_pole_high": "mythology",
+    "concepts": ["stone tool","hammer","wheel","printing press","steam engine","telegraph","telephone","computer","internet","nuclear reactor","artificial intelligence"],
+    "ground_truth_order": ["stone tool","hammer","wheel","printing press","steam engine","telegraph","telephone","computer","internet","nuclear reactor","artificial intelligence"],
+    "intruders": [
+      "Stone Age", "Renaissance", "Industrial Revolution",
+      "tribe", "city", "civilization",
+      "sadness", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "computing_power",
+    "name": "Computing Power",
+    "category": "technology",
+    "axis_description": "abacus to supercomputer",
+    "pole_low":  ["abacus", "slide rule"],
+    "pole_high": ["supercomputer", "quantum computer"],
+    "null_pole_low": "mountain", "null_pole_high": "river",
+    "concepts": ["abacus","slide rule","mechanical calculator","vacuum tube computer","transistor computer","microprocessor","personal computer","workstation","supercomputer","quantum computer"],
+    "ground_truth_order": ["abacus","slide rule","mechanical calculator","vacuum tube computer","transistor computer","microprocessor","personal computer","workstation","supercomputer","quantum computer"],
+    "intruders": [
+      "ant brain", "human brain", "dolphin brain",
+      "individual", "corporation", "government",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "data_storage",
+    "name": "Data Storage Capacity",
+    "category": "technology",
+    "axis_description": "bit to exabyte",
+    "pole_low":  ["bit", "byte"],
+    "pole_high": ["petabyte", "exabyte"],
+    "null_pole_low": "river", "null_pole_high": "mythology",
+    "concepts": ["bit","byte","kilobyte","megabyte","gigabyte","terabyte","petabyte","exabyte"],
+    "ground_truth_order": ["bit","byte","kilobyte","megabyte","gigabyte","terabyte","petabyte","exabyte"],
+    "intruders": [
+      "atom", "grain of sand", "mountain",
+      "short-term memory", "long-term memory",
+      "sadness", "democracy", "algebra", "Tuesday"
+    ]
+  },
+  {
+    "key": "network_speed",
+    "name": "Network Speed",
+    "category": "technology",
+    "axis_description": "telegram to fiber optic",
+    "pole_low":  ["dial-up", "telegram"],
+    "pole_high": ["fiber optic", "5G"],
+    "null_pole_low": "volcano", "null_pole_high": "mythology",
+    "concepts": ["telegram","dial-up","DSL","cable internet","WiFi","4G","broadband","fiber optic","5G"],
+    "ground_truth_order": ["telegram","dial-up","DSL","cable internet","WiFi","4G","broadband","fiber optic","5G"],
+    "intruders": [
+      "walking", "car", "airplane", "rocket",
+      "nerve signal", "reflex",
+      "sadness", "democracy", "algebra"
+    ]
+  },
+  {
+    "key": "weapon_destructive_power",
+    "name": "Weapon Destructive Power",
+    "category": "technology",
+    "axis_description": "stone to nuclear weapon",
+    "pole_low":  ["rock", "fist"],
+    "pole_high": ["nuclear bomb", "hydrogen bomb"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["rock","knife","sword","musket","rifle","cannon","machine gun","artillery","missile","atomic bomb","hydrogen bomb"],
+    "ground_truth_order": ["rock","knife","sword","musket","rifle","cannon","machine gun","artillery","missile","atomic bomb","hydrogen bomb"],
+    "intruders": [
+      "mosquito", "snake", "shark", "elephant",
+      "thunderstorm", "earthquake", "volcanic eruption",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "emotion_valence",
+    "name": "Emotion Valence (negative to positive)",
+    "category": "psychological",
+    "axis_description": "most negative emotion to most positive",
+    "pole_low":  ["despair", "grief"],
+    "pole_high": ["ecstasy", "bliss"],
+    "null_pole_low": "molecule", "null_pole_high": "river",
+    "concepts": ["despair","grief","terror","anger","sadness","anxiety","apathy","contentment","happiness","joy","ecstasy","bliss"],
+    "ground_truth_order": ["despair","grief","terror","anger","sadness","anxiety","apathy","contentment","happiness","joy","ecstasy","bliss"],
+    "intruders": [
+      "theft", "charity", "heroism",
+      "pain", "pleasure", "nausea",
+      "algebra", "Tuesday", "mountain"
+    ]
+  },
+  {
+    "key": "emotion_arousal",
+    "name": "Emotion Arousal",
+    "category": "psychological",
+    "axis_description": "lowest arousal to highest arousal",
+    "pole_low":  ["sleep", "coma"],
+    "pole_high": ["panic", "rage"],
+    "null_pole_low": "molecule", "null_pole_high": "mythology",
+    "concepts": ["coma","deep sleep","drowsy","relaxed","calm","alert","excited","anxious","panic","rage"],
+    "ground_truth_order": ["coma","deep sleep","drowsy","relaxed","calm","alert","excited","anxious","panic","rage"],
+    "intruders": [
+      "resting", "walking", "sprinting",
+      "daydreaming", "focused", "hyperfocused",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "pain_scale",
+    "name": "Pain Intensity",
+    "category": "psychological",
+    "axis_description": "no pain to unbearable pain",
+    "pole_low":  ["painless", "numb"],
+    "pole_high": ["agony", "unbearable pain"],
+    "null_pole_low": "volcano", "null_pole_high": "equation",
+    "concepts": ["painless","tickle","mild discomfort","itch","moderate pain","sharp pain","severe pain","intense pain","agony","unbearable pain"],
+    "ground_truth_order": ["painless","tickle","mild discomfort","itch","moderate pain","sharp pain","severe pain","intense pain","agony","unbearable pain"],
+    "intruders": [
+      "despair", "grief", "bliss",
+      "cold water", "boiling water", "fire",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "moral_valence",
+    "name": "Moral Valence",
+    "category": "psychological",
+    "axis_description": "pure evil to saintly",
+    "pole_low":  ["genocide", "pure evil"],
+    "pole_high": ["saint", "altruism"],
+    "null_pole_low": "molecule", "null_pole_high": "river",
+    "concepts": ["genocide","murder","torture","theft","deception","selfishness","neutrality","generosity","charity","heroism","altruism","sainthood"],
+    "ground_truth_order": ["genocide","murder","torture","theft","deception","selfishness","neutrality","generosity","charity","heroism","altruism","sainthood"],
+    "intruders": [
+      "misdemeanor", "felony", "capital crime",
+      "grief", "despair", "bliss",
+      "algebra", "Tuesday", "mountain"
+    ]
+  },
+  {
+    "key": "sleep_depth",
+    "name": "Sleep / Consciousness Depth",
+    "category": "psychological",
+    "axis_description": "fully conscious to deepest unconsciousness",
+    "pole_low":  ["alert", "awake"],
+    "pole_high": ["coma", "anesthesia"],
+    "null_pole_low": "volcano", "null_pole_high": "river",
+    "concepts": ["alert","drowsy","light sleep","REM sleep","deep sleep","meditative trance","anesthesia","coma"],
+    "ground_truth_order": ["alert","drowsy","light sleep","REM sleep","deep sleep","meditative trance","anesthesia","coma"],
+    "intruders": [
+      "mindfulness", "deep meditation", "transcendence",
+      "distracted", "focused", "hyperfocused",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "energy_density",
+    "name": "Energy Density of Fuels",
+    "category": "chemistry",
+    "axis_description": "lowest energy density fuel to highest",
+    "pole_low":  ["wood", "coal"],
+    "pole_high": ["nuclear fuel", "antimatter"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["wood","coal","oil","natural gas","gasoline","hydrogen","TNT","nuclear fuel","antimatter"],
+    "ground_truth_order": ["wood","coal","oil","natural gas","gasoline","hydrogen","TNT","nuclear fuel","antimatter"],
+    "intruders": [
+      "whisper", "explosion", "nuclear blast",
+      "dim light", "bright light", "blinding flash",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "acidity",
+    "name": "pH / Acidity Scale",
+    "category": "chemistry",
+    "axis_description": "most acidic to most alkaline",
+    "pole_low":  ["battery acid", "hydrochloric acid"],
+    "pole_high": ["bleach", "sodium hydroxide"],
+    "null_pole_low": "mountain", "null_pole_high": "mythology",
+    "concepts": ["battery acid","hydrochloric acid","lemon juice","vinegar","coffee","water","milk","baking soda","bleach","sodium hydroxide"],
+    "ground_truth_order": ["battery acid","hydrochloric acid","lemon juice","vinegar","coffee","water","milk","baking soda","bleach","sodium hydroxide"],
+    "intruders": [
+      "aspirin", "cyanide", "botulinum toxin",
+      "ice", "boiling water", "fire",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "material_hardness",
+    "name": "Material Hardness (Mohs)",
+    "category": "chemistry",
+    "axis_description": "softest material to hardest",
+    "pole_low":  ["talc", "wax"],
+    "pole_high": ["diamond", "carbide"],
+    "null_pole_low": "river", "null_pole_high": "mythology",
+    "concepts": ["talc","wax","gypsum","fingernail","copper","iron","glass","quartz","corundum","diamond"],
+    "ground_truth_order": ["talc","wax","gypsum","fingernail","copper","iron","glass","quartz","corundum","diamond"],
+    "intruders": [
+      "feather", "lead", "osmium",
+      "soft-spoken", "hardened criminal", "steel resolve",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "atomic_weight",
+    "name": "Atomic Weight",
+    "category": "chemistry",
+    "axis_description": "lightest element to heaviest stable element",
+    "pole_low":  ["hydrogen", "helium"],
+    "pole_high": ["uranium", "lead"],
+    "null_pole_low": "mountain", "null_pole_high": "river",
+    "concepts": ["hydrogen","helium","carbon","oxygen","sodium","aluminum","iron","copper","silver","gold","lead","uranium"],
+    "ground_truth_order": ["hydrogen","helium","carbon","oxygen","sodium","aluminum","iron","copper","silver","gold","lead","uranium"],
+    "intruders": [
+      "electron", "atom", "molecule", "planet",
+      "water", "platinum", "titanium",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "toxicity",
+    "name": "Substance Toxicity",
+    "category": "chemistry",
+    "axis_description": "harmless to most lethal substance",
+    "pole_low":  ["water", "sugar"],
+    "pole_high": ["botulinum toxin", "VX nerve agent"],
+    "null_pole_low": "justice", "null_pole_high": "river",
+    "concepts": ["water","sugar","salt","caffeine","aspirin","alcohol","bleach","arsenic","cyanide","VX nerve agent","botulinum toxin"],
+    "ground_truth_order": ["water","sugar","salt","caffeine","aspirin","alcohol","bleach","arsenic","cyanide","VX nerve agent","botulinum toxin"],
+    "intruders": [
+      "lemon juice", "vinegar", "battery acid",
+      "coffee", "dark chocolate", "quinine",
+      "sadness", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "music_tempo",
+    "name": "Music Tempo",
+    "category": "aesthetic",
+    "axis_description": "slowest tempo to fastest tempo",
+    "pole_low":  ["larghissimo", "grave"],
+    "pole_high": ["prestissimo", "presto"],
+    "null_pole_low": "molecule", "null_pole_high": "equation",
+    "concepts": ["larghissimo","grave","largo","adagio","andante","moderato","allegretto","allegro","vivace","presto","prestissimo"],
+    "ground_truth_order": ["larghissimo","grave","largo","adagio","andante","moderato","allegretto","allegro","vivace","presto","prestissimo"],
+    "intruders": [
+      "melancholy", "joyful", "ecstatic",
+      "walking", "running", "sprinting",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "color_wavelength",
+    "name": "Visible Light Color (wavelength)",
+    "category": "aesthetic",
+    "axis_description": "longest wavelength to shortest wavelength",
+    "pole_low":  ["red", "infrared"],
+    "pole_high": ["violet", "ultraviolet"],
+    "null_pole_low": "justice", "null_pole_high": "mythology",
+    "concepts": ["red","orange","yellow","green","cyan","blue","indigo","violet"],
+    "ground_truth_order": ["red","orange","yellow","green","cyan","blue","indigo","violet"],
+    "intruders": [
+      "ice", "fire", "warm sunlight",
+      "sadness", "passion", "calm",
+      "algebra", "Tuesday", "democracy"
+    ]
+  },
+  {
+    "key": "art_abstraction",
+    "name": "Art Abstraction Level",
+    "category": "aesthetic",
+    "axis_description": "photorealism to pure abstraction",
+    "pole_low":  ["photograph", "photorealism"],
+    "pole_high": ["abstract expressionism", "pure abstraction"],
+    "null_pole_low": "molecule", "null_pole_high": "mythology",
+    "concepts": ["photograph","photorealism","impressionism","expressionism","cubism","surrealism","abstract expressionism","pure abstraction"],
+    "ground_truth_order": ["photograph","photorealism","impressionism","expressionism","cubism","surrealism","abstract expressionism","pure abstraction"],
+    "intruders": [
+      "cave painting", "medieval painting", "Renaissance",
+      "nursery rhyme", "novel", "Ulysses",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "narrative_complexity",
+    "name": "Narrative Complexity",
+    "category": "aesthetic",
+    "axis_description": "simplest narrative to most complex",
+    "pole_low":  ["nursery rhyme", "fairy tale"],
+    "pole_high": ["Ulysses", "Infinite Jest"],
+    "null_pole_low": "molecule", "null_pole_high": "river",
+    "concepts": ["nursery rhyme","fairy tale","fable","children's book","short story","novella","novel","epic","Ulysses","Infinite Jest"],
+    "ground_truth_order": ["nursery rhyme","fairy tale","fable","children's book","short story","novella","novel","epic","Ulysses","Infinite Jest"],
+    "intruders": [
+      "tweet", "paragraph", "encyclopedia",
+      "Harry Potter", "War and Peace",
+      "algebra", "democracy", "river", "Tuesday"
+    ]
+  },
+  {
+    "key": "urban_density",
+    "name": "Urban Density",
+    "category": "geographic",
+    "axis_description": "wilderness to most densely populated",
+    "pole_low":  ["wilderness", "uninhabited"],
+    "pole_high": ["megacity", "Manhattan"],
+    "null_pole_low": "justice", "null_pole_high": "equation",
+    "concepts": ["wilderness","rural farmland","village","small town","suburb","city","large city","metropolis","megacity","Manhattan"],
+    "ground_truth_order": ["wilderness","rural farmland","village","small town","suburb","city","large city","metropolis","megacity","Manhattan"],
+    "intruders": [
+      "person", "city", "civilization",
+      "lone wolf", "wolf pack", "ant colony",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "altitude",
+    "name": "Altitude",
+    "category": "geographic",
+    "axis_description": "ocean floor to edge of space",
+    "pole_low":  ["ocean floor", "deep sea"],
+    "pole_high": ["stratosphere", "outer space"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["ocean floor","deep sea","sea level","hill","mountain","high altitude","stratosphere","mesosphere","outer space"],
+    "ground_truth_order": ["ocean floor","deep sea","sea level","hill","mountain","high altitude","stratosphere","mesosphere","outer space"],
+    "intruders": [
+      "citizen", "president", "god",
+      "underground cave", "basement", "cellar",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "north_south_usa",
+    "name": "US Cities North-South",
+    "category": "geographic",
+    "axis_description": "southernmost to northernmost US city",
+    "pole_low":  ["Miami Florida", "Houston Texas"],
+    "pole_high": ["Anchorage Alaska", "Minneapolis Minnesota"],
+    "null_pole_low": "justice", "null_pole_high": "melody",
+    "concepts": ["Miami","Houston","New Orleans","Dallas","Phoenix","Atlanta","Los Angeles","Nashville","San Francisco","Denver","New York","Chicago","Seattle","Anchorage"],
+    "ground_truth_order": ["Miami","Houston","New Orleans","Dallas","Phoenix","Atlanta","Los Angeles","Nashville","San Francisco","Denver","New York","Chicago","Seattle","Anchorage"],
+    "intruders": [
+      "tropical", "arctic", "temperate",
+      "London", "Tokyo", "Sydney",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "country_size",
+    "name": "Country Size by Area",
+    "category": "geographic",
+    "axis_description": "smallest country to largest country",
+    "pole_low":  ["Vatican City", "Monaco"],
+    "pole_high": ["Russia", "Canada"],
+    "null_pole_low": "justice", "null_pole_high": "river",
+    "concepts": ["Vatican City","Monaco","Luxembourg","Jamaica","Switzerland","Germany","France","India","Australia","Brazil","Canada","Russia"],
+    "ground_truth_order": ["Vatican City","Monaco","Luxembourg","Jamaica","Switzerland","Germany","France","India","Australia","Brazil","Canada","Russia"],
+    "intruders": [
+      "Nauru", "Iceland", "China",
+      "poor nation", "emerging economy", "G7 nation",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "population_size",
+    "name": "Country Population",
+    "category": "geographic",
+    "axis_description": "least populated to most populated country",
+    "pole_low":  ["Vatican City", "Nauru"],
+    "pole_high": ["China", "India"],
+    "null_pole_low": "volcano", "null_pole_high": "equation",
+    "concepts": ["Vatican City","Nauru","Iceland","Luxembourg","New Zealand","Greece","Canada","Germany","United States","Brazil","Indonesia","India","China"],
+    "ground_truth_order": ["Vatican City","Nauru","Iceland","Luxembourg","New Zealand","Greece","Canada","Germany","United States","Brazil","Indonesia","India","China"],
+    "intruders": [
+      "Monaco", "Luxembourg", "Russia",
+      "weak state", "middle power", "superpower",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "fictional_power_hierarchy",
+    "name": "Fictional Power Hierarchy (memorization test)",
+    "category": "fictional",
+    "axis_description": "weakest to most powerful in fictional hierarchy",
+    "pole_low":  ["peasant", "commoner"],
+    "pole_high": ["emperor", "god"],
+    "null_pole_low": "molecule", "null_pole_high": "river",
+    "concepts": ["peasant","soldier","knight","noble","lord","baron","duke","king","emperor","god"],
+    "ground_truth_order": ["peasant","soldier","knight","noble","lord","baron","duke","king","emperor","god"],
+    "intruders": [
+      "voter", "senator", "president",
+      "homeless", "millionaire", "billionaire",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+    "key": "fictional_size_hierarchy",
+    "name": "Fictional Size Hierarchy (novel scale)",
+    "category": "fictional",
+    "axis_description": "tiny creature to giant monster",
+    "pole_low":  ["pixie", "fairy"],
+    "pole_high": ["titan", "leviathan"],
+    "null_pole_low": "justice", "null_pole_high": "equation",
+    "concepts": ["pixie","fairy","gnome","dwarf","halfling","human","giant","ogre","titan","leviathan"],
+    "ground_truth_order": ["pixie","fairy","gnome","dwarf","halfling","human","giant","ogre","titan","leviathan"],
+    "intruders": [
+      "ant", "human", "elephant", "whale",
+      "person", "city", "civilization",
+      "algebra", "democracy", "Tuesday"
+    ]
+  },
+  {
+    "key": "magic_power_system",
+    "name": "Magic Power Levels (fictional system)",
+    "category": "fictional",
+    "axis_description": "novice mage to omnipotent",
+    "pole_low":  ["apprentice", "novice mage"],
+    "pole_high": ["archmage", "omnipotent deity"],
+    "null_pole_low": "molecule", "null_pole_high": "mythology",
+    "concepts": ["novice mage","apprentice","hedge witch","adept","mage","wizard","archmage","lich","demigod","omnipotent deity"],
+    "ground_truth_order": ["novice mage","apprentice","hedge witch","adept","mage","wizard","archmage","lich","demigod","omnipotent deity"],
+    "intruders": [
+      "student", "expert", "professor", "Nobel laureate",
+      "voter", "mayor", "president",
+      "algebra", "sadness", "Tuesday"
+    ]
+  },
+  {
+  "key": "ontological_persistence",
+  "name": "Ontological Persistence",
+  "category": "existential",
+  "axis_description": "transient event to eternal law",
+  "pole_low":  ["spark", "glance"],
+  "pole_high": ["mathematical truth", "universe"],
+  "null_pole_low": "molecule", "null_pole_high": "river",
+  "concepts": ["spark", "sneeze", "conversation", "concert", "election", "war", "dynasty", "civilization", "species", "planet", "galaxy", "mathematical truth"],
+  "ground_truth_order": ["spark", "sneeze", "conversation", "concert", "election", "war", "dynasty", "civilization", "species", "planet", "galaxy", "mathematical truth"],
+  "intruders": ["blue", "loud", "heavy", "democracy", "Tuesday"]
+}
+]
