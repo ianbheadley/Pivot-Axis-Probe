@@ -1,0 +1,176 @@
+============================================================================
+  RELATIONAL STRUCTURE PROBE -- SUMMARY
+  2026-03-09 15:40  |  53 domains
+============================================================================
+
+  Gate A+B: CONFIRMED=48  PARTIAL=1  WEAK=3  NONE=1
+  Confirmation rate: 90.6%  (+PARTIAL: 92.5%)
+
+  Gate C (intruder): PASS=49/53  FAIL=4/53
+  Failures:
+    Sound Frequency                        ratio=15.15x  biased=['bright']
+    Academic Credential                    ratio=10.18x  biased=['homeless']
+    Food Chain / Trophic Level             ratio=5.19x  biased=['whale']
+    US Cities North-South                  ratio=5.68x  biased=['tropical', 'London', 'Tokyo']
+
+────────────────────────────────────────────────────────────────────────────
+  Domain                         Cat              rho          p   D-rho  V    GC
+────────────────────────────────────────────────────────────────────────────
+  Cognitive Complexity           cognitive    +0.9879  9.307e-08 +0.8970  CONF*   P
+  Relative Brain Size            biological   +0.9780  7.758e-09 +1.0110  CONF*   P
+  Data Storage Capacity          technology   +0.9762  3.314e-05 +0.7143  CONF*   P
+  Sleep / Consciousness Depth    psychologic  +0.9762  3.314e-05 +1.7143  CONF*   P
+  Economic Wealth                social       +0.9758  1.468e-06 +1.3212  CONF*   P
+  Pain Intensity                 psychologic  +0.9758  1.468e-06 +0.7273  CONF*   P
+  Moral Valence                  psychologic  +0.9720  1.287e-07 +1.2727  CONF*   P
+  Energy Density of Fuels        chemistry    +0.9667  2.155e-05 +0.9667  CONF*   P
+  Academic Credential            social       +0.9636  7.321e-06 +1.3333  CONF*   F
+  Emotion Arousal                psychologic  +0.9636  7.321e-06 +0.4970  CONF*   P
+  Fictional Power Hierarchy (me  fictional    +0.9636  7.321e-06 +1.2970  CONF*   P
+  Evolutionary Complexity        biological   +0.9615  1.632e-07 +0.9560  CONF*   P
+  Historical Temporal Order      temporal     +0.9604  5.081e-08 +1.1033  CONF*   P
+  Human Life Stages              temporal     +0.9545  4.989e-06 +1.0000  CONF*   P
+  Substance Toxicity             chemistry    +0.9545  4.989e-06 +1.3091  CONF*   P
+  Political Power Scale          social       +0.9515  2.280e-05 +0.5939  CONF*   P
+  Urban Density                  geographic   +0.9515  2.280e-05 +0.9818  CONF*   P
+  Network Speed                  technology   +0.9500  8.763e-05 +0.8167  CONF*   P
+  Food Chain / Trophic Level     biological   +0.9455  1.118e-05 +0.8636  CONF*   F
+  Language Complexity            cognitive    +0.9394  5.484e-05 +0.2667  WEAK*   P
+  Narrative Complexity           aesthetic    +0.9394  5.484e-05 +0.6303  CONF*   P
+  Weapon Destructive Power       technology   +0.9364  2.208e-05 +1.1182  CONF*   P
+  Altitude                       geographic   +0.9333  2.359e-04 +0.6667  CONF*   P
+  Atomic Weight                  chemistry    +0.9301  1.170e-05 +0.4895  CONF*   P
+  Project / Process Lifecycle    temporal     +0.9273  3.974e-05 +1.3727  CONF*   P
+  Organism Lifespan              biological   +0.9273  3.974e-05 +1.3000  CONF*   P
+  Music Tempo                    aesthetic    +0.9273  3.974e-05 +0.9636  CONF*   P
+  Plant Complexity               biological   +0.9273  1.120e-04 +0.2182  WEAK*   P
+  Country Size by Area           geographic   +0.9231  1.862e-05 +0.8531  CONF*   P
+  Geological Time                physical     +0.9182  6.661e-05 +1.3636  CONF*   P
+  Emotion Valence (negative to   psychologic  +0.9161  2.843e-05 +1.0490  CONF*   P
+  Physical Size (cosmic)         physical     +0.9121  5.502e-06 +1.2879  CONF*   P
+  Ontological Persistence        existential  +0.9091  4.191e-05 +1.5524  CONF*   P
+  Sound Frequency                physical     +0.9048  2.008e-03 +1.4762  CONF*   F
+  Mathematical Abstraction       cognitive    +0.9030  3.436e-04 +0.3879  CONF*   P
+  Electromagnetic Spectrum       physical     +0.8929  6.807e-03 +0.3214  CONF*   P
+  Information Hierarchy          cognitive    +0.8909  2.335e-04 +0.7545  CONF*   P
+  pH / Acidity Scale             chemistry    +0.8909  5.421e-04 +0.8121  CONF*   P
+  Fictional Size Hierarchy (nov  fictional    +0.8909  5.421e-04 +0.6424  CONF*   P
+  Magic Power Levels (fictional  fictional    +0.8909  5.421e-04 +0.4727  CONF*   P
+  Country Population             geographic   +0.8681  1.191e-04 +0.5824  CONF*   P
+  Social / Institutional Scale   social       +0.8667  1.174e-03 +0.2061  WEAK*   P
+  Scientific Certainty           cognitive    +0.8545  1.637e-03 +1.3091  CONF*   P
+  Military Rank                  social       +0.8545  1.637e-03 +1.2000  CONF*   P
+  Material Hardness (Mohs)       chemistry    +0.8424  2.220e-03 +1.0788  CONF*   P
+  Technology Complexity          technology   +0.8364  1.333e-03 +0.6545  CONF*   P
+  Art Abstraction Level          aesthetic    +0.8333  1.018e-02 +0.6905  CONF*   P
+  Computing Power                technology   +0.8303  2.940e-03 +1.3333  CONF*   P
+  Temperature Scale              physical     +0.8182  3.815e-03 +0.5939  CONF*   P
+  Biological Size                physical     +0.7747  1.871e-03 +0.9341  CONF*   P
+  Disease Severity Progression   temporal     +0.7455  1.333e-02 +1.1758  CONF*   P
+  US Cities North-South          geographic   +0.6879  6.540e-03 +0.4879  PART*   F
+  Visible Light Color (waveleng  aesthetic    +0.6667  7.099e-02 +0.2619  NONE    P
+
+────────────────────────────────────────────────────────────────────────────
+  BY CATEGORY
+────────────────────────────────────────────────────────────────────────────
+  aesthetic            n=4  mean_rho=+0.8417  confirmed=3/4  GC=4/4
+  biological           n=5  mean_rho=+0.9479  confirmed=4/5  GC=4/5
+  chemistry            n=5  mean_rho=+0.9169  confirmed=5/5  GC=5/5
+  cognitive            n=5  mean_rho=+0.9152  confirmed=4/5  GC=5/5
+  existential          n=1  mean_rho=+0.9091  confirmed=1/1  GC=1/1
+  fictional            n=3  mean_rho=+0.9152  confirmed=3/3  GC=3/3
+  geographic           n=5  mean_rho=+0.8728  confirmed=4/5  GC=4/5
+  physical             n=6  mean_rho=+0.8701  confirmed=6/6  GC=5/6
+  psychological        n=5  mean_rho=+0.9607  confirmed=5/5  GC=5/5
+  social               n=5  mean_rho=+0.9224  confirmed=4/5  GC=4/5
+  technology           n=5  mean_rho=+0.9058  confirmed=5/5  GC=5/5
+  temporal             n=4  mean_rho=+0.8969  confirmed=4/4  GC=4/4
+
+────────────────────────────────────────────────────────────────────────────
+  GATE C -- VARIANCE RATIOS
+  Domain                               ratio   in_sprd  out_sprd    result
+────────────────────────────────────────────────────────────────────────────
+  Network Speed                       303.82x   0.8664    0.0485  PASS
+  Fictional Size Hierarchy (novel s   196.77x   0.8765    0.0630  PASS
+  Electromagnetic Spectrum            125.85x   0.8364    0.0847  PASS
+  Human Life Stages                    99.04x   0.8159    0.0754  PASS
+  Language Complexity                  94.79x   0.8545    0.0906  PASS
+  pH / Acidity Scale                   82.78x   0.7673    0.0640  PASS
+  Data Storage Capacity                73.81x   1.0082    0.1321  PASS
+  Geological Time                      66.41x   0.7309    0.0755  PASS
+  Evolutionary Complexity              65.01x   0.8225    0.0949  PASS
+  Biological Size                      61.98x   0.8716    0.0975  PASS
+  Political Power Scale                58.27x   0.8664    0.1032  PASS
+  Art Abstraction Level                57.36x   0.8364    0.1187  PASS
+  Computing Power                      53.01x   0.7808    0.1120  PASS
+  Material Hardness (Mohs)             50.45x   0.7753    0.0782  PASS
+  Music Tempo                          49.37x   1.0206    0.1307  PASS
+  Plant Complexity                     46.48x   0.7984    0.1326  PASS
+  Organism Lifespan                    46.21x   0.7623    0.1154  PASS
+  Narrative Complexity                 43.40x   0.9670    0.1311  PASS
+  Emotion Arousal                      41.88x   0.7840    0.1167  PASS
+  Cognitive Complexity                 39.38x   0.8941    0.1199  PASS
+  Atomic Weight                        38.01x   0.8883    0.1265  PASS
+  Temperature Scale                    36.51x   0.7237    0.1061  PASS
+  Energy Density of Fuels              33.56x   0.8206    0.1632  PASS
+  Project / Process Lifecycle          30.01x   0.8269    0.1454  PASS
+  Relative Brain Size                  29.95x   0.8648    0.1184  PASS
+  Substance Toxicity                   28.74x   0.9158    0.2002  PASS
+  Mathematical Abstraction             27.76x   0.8212    0.1729  PASS
+  Technology Complexity                24.15x   0.8317    0.1647  PASS
+  Visible Light Color (wavelength)     23.52x   0.7413    0.1517  PASS
+  Scientific Certainty                 22.72x   0.7134    0.1360  PASS
+  Military Rank                        20.77x   0.7574    0.1475  PASS
+  Altitude                             20.65x   0.7900    0.1523  PASS
+  Information Hierarchy                18.97x   0.7990    0.1898  PASS
+  Disease Severity Progression         17.00x   0.8389    0.2027  PASS
+  Social / Institutional Scale         16.77x   0.7414    0.1757  PASS
+  Fictional Power Hierarchy (memori    15.96x   0.8787    0.2111  PASS
+  Physical Size (cosmic)               15.61x   0.8525    0.1627  PASS
+  Sound Frequency                      15.15x   0.5611    0.1720  FAIL(pb=1)
+  Historical Temporal Order            14.82x   0.8428    0.1777  PASS
+  Sleep / Consciousness Depth          14.78x   0.8365    0.1873  PASS
+  Economic Wealth                      13.09x   0.8314    0.2621  PASS
+  Magic Power Levels (fictional sys    12.89x   0.8299    0.1987  PASS
+  Emotion Valence (negative to posi    12.82x   0.7377    0.1910  PASS
+  Ontological Persistence              11.44x   0.9150    0.1567  PASS
+  Country Size by Area                 11.09x   0.8100    0.2789  PASS
+  Academic Credential                  10.18x   0.8695    0.2485  FAIL(pb=1)
+  Urban Density                         9.06x   0.8327    0.2539  PASS
+  Country Population                    8.89x   0.8062    0.2631  PASS
+  Pain Intensity                        8.73x   0.6730    0.2221  PASS
+  Weapon Destructive Power              7.90x   0.8923    0.2673  PASS
+  US Cities North-South                 5.68x   0.6174    0.1862  FAIL(pb=3)
+  Food Chain / Trophic Level            5.19x   0.8774    0.3343  FAIL(pb=1)
+  Moral Valence                         4.62x   0.5459    0.1637  PASS
+
+────────────────────────────────────────────────────────────────────────────
+  TOP DISTORTIONS (|error| >= 4)
+────────────────────────────────────────────────────────────────────────────
+  New York               err=-7  LOW   [US Cities North-South]
+  human                  err=-6  LOW   [Biological Size]
+  exposed                err=+5  HIGH  [Disease Severity Progression]
+  Phoenix                err=+5  HIGH  [US Cities North-South]
+  chimpanzee             err=-4  LOW   [Biological Size]
+  grain of sand          err=+4  HIGH  [Physical Size (cosmic)]
+  sun surface            err=-4  LOW   [Temperature Scale]
+  state                  err=-4  LOW   [Social / Institutional Scale]
+  major                  err=-4  LOW   [Military Rank]
+  steam engine           err=+4  HIGH  [Technology Complexity]
+  workstation            err=-4  LOW   [Computing Power]
+  terror                 err=+4  HIGH  [Emotion Valence (negative to positive)]
+  New Orleans            err=+4  HIGH  [US Cities North-South]
+  San Francisco          err=-4  LOW   [US Cities North-South]
+  Canada                 err=+4  HIGH  [Country Population]
+
+────────────────────────────────────────────────────────────────────────────
+  ALARM: POLE-BIASED INTRUDERS
+  Out-of-domain concepts that landed near a pole.
+  These suggest the axis measures something broader than its label.
+────────────────────────────────────────────────────────────────────────────
+  whale                  score= +0.3113  high pole  [Food Chain / Trophic Level]
+  homeless               score= -0.2509  low  pole  [Academic Credential]
+  Tokyo                  score= -0.0500  low  pole  [US Cities North-South]
+  bright                 score= -0.0311  low  pole  [Sound Frequency]
+  London                 score= -0.0280  low  pole  [US Cities North-South]
+  tropical               score= -0.0247  low  pole  [US Cities North-South]
