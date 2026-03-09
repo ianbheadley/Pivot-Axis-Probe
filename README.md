@@ -6,7 +6,7 @@
 
 This project investigates the internal representations of Large Language Models (LLMs) by probing their understanding of various relational, hierarchical, and temporal structures. The primary technique used is an **axis probe technique**, which extracts conceptual axes from the model's activation space and evaluates how well terms between two extremes map between them.
 
-Specifically, the probe defines a domain (e.g., "Biological Size" or "Historical Temporal Order") by specifying extreme and opposite pole concepts (e.g., "virus" and "elephant" for size, or "Stone Age" and "internet" for time). The probe then extracts an axis vector between these two poles in the activation space of the LLM (in this case, Meta-Llama-3-8B-Instruct-4bit).\
+Specifically, the probe defines a domain (e.g., "Biological Size" or "Historical Temporal Order") by specifying extreme and opposite pole concepts (e.g., "virus" and "elephant" for size, or "Stone Age" and "internet" for time). The probe then extracts an axis vector between these two poles in the activation space of the LLM (in this case, Meta-Llama-3-8B-Instruct-4bit).
 ## Test Results Findings
 
 A total of 53 diverse domains were probed across categories such as physical, biological, cognitive, temporal, geographic, psychological, social, technology, and aesthetic. The results indicate a robust capability of the model to organize concepts structurally.
