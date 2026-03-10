@@ -41,11 +41,3 @@ While the model performs exceptionally well, there are notable distortions where
 * In **Disease Severity Progression**, the concept *exposed* was ranked much higher in severity than it should be.
 
 Four domains failed the Gate C intruder test due to pole bias, where an out-of-domain concept strongly aligned with one of the poles. For instance, the concept *whale* strongly aligned with the high pole of the **Food Chain / Trophic Level** axis, suggesting the axis might be conflating "trophic level" with "physical size" or "oceanic dominance". Similarly, *homeless* aligned with the low pole of the **Academic Credential** axis, indicating a conflation between academic rank and socioeconomic status.
-## Relation to LLM Research & Implications
-
-The findings from this probe have significant implications for our understanding of Large Language Models:
-1. **Structured Internal Representations:** The high confirmation rate across 53 diverse domains provides strong evidence that LLMs do not merely memorize statistical co-occurrences of tokens. Instead, they construct structured, continuous, and multi-dimensional internal representations of the world. Concepts are organized geographically, temporally, physically, and conceptually in a manner that aligns with human intuition and ground truth.
-
-2. **Axis Extraction as an Interpretability Tool:** The success of the axis probe technique demonstrates that linear directions in the activation space carry specific semantic meanings. This supports the linear representation hypothesis in LLMs, suggesting that complex concepts can be decomposed into linear combinations of simpler, interpretable features (axes).
-
-3. **Semantic Conflation and Bias:** The intruder alarms (Gate C failures) and specific rank distortions highlight the model's limitations and potential biases. When *homeless* aligns with the low pole of an *Academic Credential* axis, it reveals that the model's internal representation of these concepts is entangled. This kind of semantic conflation can lead to downstream biases and hallucinations if the model relies on these entangled axes for reasoning.
